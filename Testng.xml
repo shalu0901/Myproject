@@ -1,0 +1,13 @@
+<suite name="Roicians Contactus">
+<test name="Regression" allow-return-values="true">
+<classes>
+<class name="testlayer.HRtest"/>
+
+</classes>
+</test>
+<test name="Smoke" allow-return-values="true">
+<classes>
+<class name="testlayer.HRtest"/>
+</classes>
+</test>
+</suite>

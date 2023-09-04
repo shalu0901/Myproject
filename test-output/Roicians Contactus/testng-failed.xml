@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Roicians Contactus]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="testlayer.HRtest">
+        <methods>
+          <include name="close"/>
+          <include name="initialsetup"/>
+          <include name="Tc_valid_login"/>
+        </methods>
+      </class> <!-- testlayer.HRtest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="testlayer.HRtest">
+        <methods>
+          <include name="close"/>
+          <include name="Title"/>
+          <include name="Tc_valid_login"/>
+          <include name="initialsetup"/>
+        </methods>
+      </class> <!-- testlayer.HRtest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Roicians Contactus] -->
